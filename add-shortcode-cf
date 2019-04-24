@@ -1,0 +1,6 @@
+//abilita shortcode CF
+add_filter( 'wpcf7_form_elements', 'kiz_wpcf7_form_elements' );
+function kiz_wpcf7_form_elements( $form ) {
+$form = do_shortcode( $form );
+return $form;
+}
