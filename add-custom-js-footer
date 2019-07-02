@@ -1,0 +1,11 @@
+function theme_wp_footer() {
+
+    ?>
+    <script>
+    //Insert code here...
+    </script>
+    <?php
+    
+}
+
+add_action('wp_footer', 'theme_wp_footer', PHP_INT_MAX);
