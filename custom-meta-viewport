@@ -1,0 +1,5 @@
+add_filter('ocean_meta_viewport', 'owp_child_viewport');
+function owp_child_viewport( $viewport ){
+	$viewport = '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">';
+	return $viewport;
+}
