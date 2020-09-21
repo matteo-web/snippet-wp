@@ -1,4 +1,4 @@
-
+<?php
 function remove_cpt_slug( $post_link, $post, $leavename ) {
 
     if ( in_array( $post->post_type, array( 'corsi' ) )
