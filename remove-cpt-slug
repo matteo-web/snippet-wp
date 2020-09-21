@@ -1,4 +1,4 @@
-
+```php
 function remove_cpt_slug( $post_link, $post, $leavename ) {
 
     if ( in_array( $post->post_type, array( 'corsi' ) )
@@ -26,4 +26,5 @@ function parse_request( $query ) {
     }
 }
 add_action( 'pre_get_posts', 'sh_parse_request' );
+```
 
