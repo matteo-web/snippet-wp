@@ -1,3 +1,4 @@
+<?php
 // Shortcode Box Personalizzato
 function custom_box( $atts ) {
 
@@ -19,3 +20,4 @@ function custom_box( $atts ) {
 
 }
 add_shortcode( 'custom-box', 'custom_box' );
+?>
